@@ -17,12 +17,18 @@
   text-align: center;
 
 }
+
+/*NavBar style*/
 #navigation{
   text-align: center;
   position: sticky;
   top: 0px;
 }
-/*NavBar style*/
+.active{
+  background-color: #4CAF50;
+  color: white;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -48,3 +54,45 @@ li a:hover {
     background-color: #111;
 }
 /*NavBar style*/
+
+/*contact style*/
+#contactInfo{
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+#box1{
+  width: 250px;
+  padding: 10px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+#box2{
+  width: 250px;
+  padding: 10px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+#comment{
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+#box3{
+  width: 600px;
+  max-height: 200px;
+  padding: /*up*/10px /*left*/15px /*down*/200px /*right*/15px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+/*contact style*/
